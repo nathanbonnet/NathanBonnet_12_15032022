@@ -1,0 +1,25 @@
+.bloc-score {
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    width: 30%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .title {
+        font-size: 12px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.recharts-pie-label-line {
+    display: none !important;
+}
+
+.recharts-sector:nth-child(2) {
+    display: none !important;
+}

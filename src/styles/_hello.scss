@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../../public/font/Roboto/Roboto-Regular.ttf);
+}
+
+.bloc-hello {
+    .hello {
+        font-size: 48px;
+        span {
+            color: red;
+        }
+    }
+    .hello-content {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: Roboto-regular;
+    }
+}

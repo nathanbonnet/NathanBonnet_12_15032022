@@ -1,0 +1,32 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    .content {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        height: 91px;
+        .bloc_logo {
+            width: 20%;
+            .logo {
+                width: 178px;
+                height: 60px;
+            }
+        }
+        .nav {
+            color: white;
+            width: 90%;
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                    li {
+                        list-style: none;
+                        // width: 100%;
+                        font-size: 24px;
+                    }
+            }
+        }
+    }
+}

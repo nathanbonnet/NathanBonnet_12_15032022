@@ -1,0 +1,46 @@
+.bloc-time {
+    width: 30%;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #FF0000;
+    border-radius: 10px;
+    .bloc-content-time {
+        margin-top: 20px;
+        padding-left: 20px;
+        p {
+            font-size: 15px;
+            width: 80%;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+    }
+    .recharts-tooltip-wrapper {
+        span {
+            color: black;
+            font-size: 8px;
+        }
+        .recharts-default-tooltip {
+            padding: 5px !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+            .recharts-default-tooltip {
+                display: flex;
+                align-items: center;
+                ul {
+                    li {
+                        padding-top: 0px !important;
+                        padding-bottom: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+    .recharts-cartesian-axis-line {
+        display: none;
+    }
+    .recharts-tooltip-cursor {
+        display: none;
+    }
+}

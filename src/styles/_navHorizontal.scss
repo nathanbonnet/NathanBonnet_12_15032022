@@ -1,0 +1,34 @@
+.navHorizontal {
+    background-color: black;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    .navHorizontal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        .nav-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 55%;
+        }
+        .bloc-Copiryght {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40%;
+            .Copiryght {
+                color: white;
+                writing-mode: vertical-lr;
+                transform: rotate(180deg);
+                font-size: 12px;
+            }
+        }
+    }
+}

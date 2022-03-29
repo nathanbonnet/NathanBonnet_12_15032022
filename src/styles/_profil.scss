@@ -1,0 +1,54 @@
+.profil {
+    .bloc-content {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+        .content {
+            width: 80%;
+            margin-right: 50px;
+        }
+        .bloc-diagramme {
+            display: flex;
+            justify-content: space-between;
+            .bloc-diagramme-left {
+                width: 70%;
+                .bloc-activity{
+                    margin-top: 20px;
+                    background-color: #FBFBFB;
+                    border-radius: 10px;
+                    position: Relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 250px;
+                    .header-activity {
+                        width: 90%;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 14px;
+                        .legend {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 45%;
+                        }
+                    }
+                }
+                .bloc-session {
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+        .bloc-info {
+            margin-top: 20px;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
